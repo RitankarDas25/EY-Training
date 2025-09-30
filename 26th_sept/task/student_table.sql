@@ -19,6 +19,8 @@ create table Students (
      ('Abhi',23,'ML',90);
      delete from students where name = "Abhi";
      select * from students;
+   
+     
      
      select name,marks from students;
      
@@ -26,4 +28,5 @@ create table Students (
      
      update students
      set marks=95 where id =2;
+    
     
