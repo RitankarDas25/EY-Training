@@ -1,0 +1,4 @@
+2025-10-06 15:55:23,405 - ERROR - An error occurred: 'int' object has no attribute 'is_integer'
+2025-10-06 15:57:01,426 - INFO - Laptop total sales = 140000
+2025-10-06 15:57:01,426 - INFO - Mouse total sales = 2500
+2025-10-06 15:57:01,426 - INFO - Keyboard total sales = 3600
