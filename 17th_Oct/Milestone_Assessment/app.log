@@ -297,3 +297,1293 @@
 2025-10-17 14:40:25,207 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
 2025-10-17 14:40:25,208 - DEBUG - Received heartbeat frame
 2025-10-17 14:40:25,208 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:40:55,206 - DEBUG - Sending heartbeat frame
+2025-10-17 14:40:55,206 - DEBUG - Sending heartbeat frame
+2025-10-17 14:40:55,206 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:40:55,206 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:40:55,206 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:40:55,206 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224034.781 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224004.781; delay=30.0
+2025-10-17 14:40:55,207 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:40:55,207 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:40:55,207 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:40:55,222 - DEBUG - Received heartbeat frame
+2025-10-17 14:40:55,222 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:15,173 - DEBUG - Received 6 heartbeat frames, sent 8, idle intervals 0
+2025-10-17 14:41:15,173 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224089.75 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224024.75; delay=65
+2025-10-17 14:41:25,213 - DEBUG - Sending heartbeat frame
+2025-10-17 14:41:25,213 - DEBUG - Sending heartbeat frame
+2025-10-17 14:41:25,213 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:41:25,213 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:41:25,213 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:25,213 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224064.796 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224034.796; delay=30.0
+2025-10-17 14:41:25,214 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:41:25,214 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:41:25,214 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:25,228 - DEBUG - Received heartbeat frame
+2025-10-17 14:41:25,228 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:55,209 - DEBUG - Sending heartbeat frame
+2025-10-17 14:41:55,209 - DEBUG - Sending heartbeat frame
+2025-10-17 14:41:55,209 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:41:55,209 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:41:55,209 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:55,209 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224094.796 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224064.796; delay=30.0
+2025-10-17 14:41:55,209 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:41:55,210 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:41:55,210 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:41:55,289 - DEBUG - Received heartbeat frame
+2025-10-17 14:41:55,289 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:20,162 - DEBUG - Received 8 heartbeat frames, sent 10, idle intervals 0
+2025-10-17 14:42:20,162 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E140> with deadline=224154.75 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224089.75; delay=65
+2025-10-17 14:42:25,218 - DEBUG - Sending heartbeat frame
+2025-10-17 14:42:25,218 - DEBUG - Sending heartbeat frame
+2025-10-17 14:42:25,218 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:42:25,218 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:42:25,218 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:25,218 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224124.796 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224094.796; delay=30.0
+2025-10-17 14:42:25,219 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:42:25,219 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:42:25,219 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:25,295 - DEBUG - Received heartbeat frame
+2025-10-17 14:42:25,295 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:55,233 - DEBUG - Sending heartbeat frame
+2025-10-17 14:42:55,233 - DEBUG - Sending heartbeat frame
+2025-10-17 14:42:55,233 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:42:55,233 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:42:55,233 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:55,233 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224154.812 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224124.812; delay=30.0
+2025-10-17 14:42:55,234 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:42:55,234 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:42:55,234 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:42:55,310 - DEBUG - Received heartbeat frame
+2025-10-17 14:42:55,310 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:25,176 - DEBUG - Received 10 heartbeat frames, sent 12, idle intervals 0
+2025-10-17 14:43:25,176 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224219.765 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224154.765; delay=65
+2025-10-17 14:43:25,224 - DEBUG - Sending heartbeat frame
+2025-10-17 14:43:25,224 - DEBUG - Sending heartbeat frame
+2025-10-17 14:43:25,224 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:43:25,224 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:43:25,224 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:25,224 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224184.812 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224154.812; delay=30.0
+2025-10-17 14:43:25,225 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:43:25,225 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:43:25,225 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:25,313 - DEBUG - Received heartbeat frame
+2025-10-17 14:43:25,313 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:55,243 - DEBUG - Sending heartbeat frame
+2025-10-17 14:43:55,243 - DEBUG - Sending heartbeat frame
+2025-10-17 14:43:55,243 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:43:55,243 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:43:55,243 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:55,243 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=224214.828 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224184.828; delay=30.0
+2025-10-17 14:43:55,243 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:43:55,244 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:43:55,244 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:43:55,320 - DEBUG - Received heartbeat frame
+2025-10-17 14:43:55,320 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:25,263 - DEBUG - Sending heartbeat frame
+2025-10-17 14:44:25,263 - DEBUG - Sending heartbeat frame
+2025-10-17 14:44:25,263 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:44:25,263 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:44:25,263 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:25,263 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224244.843 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224214.843; delay=30.0
+2025-10-17 14:44:25,264 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:44:25,264 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:44:25,264 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:25,355 - DEBUG - Received heartbeat frame
+2025-10-17 14:44:25,355 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:30,196 - DEBUG - Received 13 heartbeat frames, sent 15, idle intervals 0
+2025-10-17 14:44:30,196 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224284.781 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224219.781; delay=65
+2025-10-17 14:44:55,257 - DEBUG - Sending heartbeat frame
+2025-10-17 14:44:55,257 - DEBUG - Sending heartbeat frame
+2025-10-17 14:44:55,257 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:44:55,257 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:44:55,257 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:55,257 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224274.843 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224244.843; delay=30.0
+2025-10-17 14:44:55,257 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:44:55,258 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:44:55,258 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:44:55,365 - DEBUG - Received heartbeat frame
+2025-10-17 14:44:55,365 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:25,267 - DEBUG - Sending heartbeat frame
+2025-10-17 14:45:25,267 - DEBUG - Sending heartbeat frame
+2025-10-17 14:45:25,267 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:45:25,267 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:45:25,267 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:25,267 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224304.843 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224274.843; delay=30.0
+2025-10-17 14:45:25,268 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:45:25,268 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:45:25,268 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:25,376 - DEBUG - Received heartbeat frame
+2025-10-17 14:45:25,376 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:35,208 - DEBUG - Received 15 heartbeat frames, sent 17, idle intervals 0
+2025-10-17 14:45:35,208 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=224349.796 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224284.796; delay=65
+2025-10-17 14:45:55,272 - DEBUG - Sending heartbeat frame
+2025-10-17 14:45:55,272 - DEBUG - Sending heartbeat frame
+2025-10-17 14:45:55,272 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:45:55,272 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:45:55,272 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:55,272 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224334.859 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224304.859; delay=30.0
+2025-10-17 14:45:55,273 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:45:55,273 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:45:55,273 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:45:55,381 - DEBUG - Received heartbeat frame
+2025-10-17 14:45:55,381 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:25,292 - DEBUG - Sending heartbeat frame
+2025-10-17 14:46:25,292 - DEBUG - Sending heartbeat frame
+2025-10-17 14:46:25,292 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:46:25,292 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:46:25,292 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:25,292 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224364.875 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224334.875; delay=30.0
+2025-10-17 14:46:25,292 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:46:25,293 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:46:25,293 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:25,386 - DEBUG - Received heartbeat frame
+2025-10-17 14:46:25,386 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:40,214 - DEBUG - Received 17 heartbeat frames, sent 19, idle intervals 0
+2025-10-17 14:46:40,214 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224414.796 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224349.796; delay=65
+2025-10-17 14:46:55,314 - DEBUG - Sending heartbeat frame
+2025-10-17 14:46:55,314 - DEBUG - Sending heartbeat frame
+2025-10-17 14:46:55,314 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:46:55,314 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:46:55,314 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:55,314 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224394.89 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224364.89; delay=30.0
+2025-10-17 14:46:55,315 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:46:55,315 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:46:55,315 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:46:55,390 - DEBUG - Received heartbeat frame
+2025-10-17 14:46:55,391 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:25,301 - DEBUG - Sending heartbeat frame
+2025-10-17 14:47:25,301 - DEBUG - Sending heartbeat frame
+2025-10-17 14:47:25,301 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:47:25,301 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:47:25,301 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:25,301 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=224424.89 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224394.89; delay=30.0
+2025-10-17 14:47:25,302 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:47:25,302 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:47:25,302 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:25,394 - DEBUG - Received heartbeat frame
+2025-10-17 14:47:25,394 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:45,214 - DEBUG - Received 19 heartbeat frames, sent 21, idle intervals 0
+2025-10-17 14:47:45,214 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224479.796 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224414.796; delay=65
+2025-10-17 14:47:55,315 - DEBUG - Sending heartbeat frame
+2025-10-17 14:47:55,315 - DEBUG - Sending heartbeat frame
+2025-10-17 14:47:55,315 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:47:55,315 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:47:55,315 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:55,315 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224454.89 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224424.89; delay=30.0
+2025-10-17 14:47:55,316 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:47:55,316 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:47:55,316 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:47:55,411 - DEBUG - Received heartbeat frame
+2025-10-17 14:47:55,411 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:25,318 - DEBUG - Sending heartbeat frame
+2025-10-17 14:48:25,318 - DEBUG - Sending heartbeat frame
+2025-10-17 14:48:25,318 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:48:25,318 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:48:25,318 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:25,318 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224484.906 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224454.906; delay=30.0
+2025-10-17 14:48:25,319 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:48:25,319 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:48:25,319 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:25,412 - DEBUG - Received heartbeat frame
+2025-10-17 14:48:25,412 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:50,219 - DEBUG - Received 21 heartbeat frames, sent 23, idle intervals 0
+2025-10-17 14:48:50,219 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224544.796 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224479.796; delay=65
+2025-10-17 14:48:55,337 - DEBUG - Sending heartbeat frame
+2025-10-17 14:48:55,337 - DEBUG - Sending heartbeat frame
+2025-10-17 14:48:55,337 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:48:55,337 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:48:55,337 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:55,337 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=224514.921 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224484.921; delay=30.0
+2025-10-17 14:48:55,338 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:48:55,338 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:48:55,338 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:48:55,429 - DEBUG - Received heartbeat frame
+2025-10-17 14:48:55,429 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:25,356 - DEBUG - Sending heartbeat frame
+2025-10-17 14:49:25,356 - DEBUG - Sending heartbeat frame
+2025-10-17 14:49:25,356 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:49:25,356 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:49:25,356 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:25,356 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224544.937 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224514.937; delay=30.0
+2025-10-17 14:49:25,356 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:49:25,357 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:49:25,357 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:25,434 - DEBUG - Received heartbeat frame
+2025-10-17 14:49:25,434 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:55,225 - DEBUG - Received 23 heartbeat frames, sent 25, idle intervals 0
+2025-10-17 14:49:55,225 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224609.812 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224544.812; delay=65
+2025-10-17 14:49:55,353 - DEBUG - Sending heartbeat frame
+2025-10-17 14:49:55,353 - DEBUG - Sending heartbeat frame
+2025-10-17 14:49:55,353 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:49:55,353 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:49:55,353 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:55,353 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224574.937 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224544.937; delay=30.0
+2025-10-17 14:49:55,354 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:49:55,354 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:49:55,354 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:49:55,445 - DEBUG - Received heartbeat frame
+2025-10-17 14:49:55,445 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:25,365 - DEBUG - Sending heartbeat frame
+2025-10-17 14:50:25,365 - DEBUG - Sending heartbeat frame
+2025-10-17 14:50:25,365 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:50:25,365 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:50:25,365 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:25,365 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224604.953 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224574.953; delay=30.0
+2025-10-17 14:50:25,366 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:50:25,366 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:50:25,366 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:25,458 - DEBUG - Received heartbeat frame
+2025-10-17 14:50:25,458 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:55,391 - DEBUG - Sending heartbeat frame
+2025-10-17 14:50:55,391 - DEBUG - Sending heartbeat frame
+2025-10-17 14:50:55,391 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:50:55,391 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:50:55,391 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:55,391 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224634.968 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224604.968; delay=30.0
+2025-10-17 14:50:55,392 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:50:55,392 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:50:55,392 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:50:55,467 - DEBUG - Received heartbeat frame
+2025-10-17 14:50:55,467 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:00,242 - DEBUG - Received 26 heartbeat frames, sent 28, idle intervals 0
+2025-10-17 14:51:00,242 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=224674.828 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224609.828; delay=65
+2025-10-17 14:51:25,395 - DEBUG - Sending heartbeat frame
+2025-10-17 14:51:25,395 - DEBUG - Sending heartbeat frame
+2025-10-17 14:51:25,395 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:51:25,395 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:51:25,395 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:25,395 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224664.984 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224634.984; delay=30.0
+2025-10-17 14:51:25,395 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:51:25,396 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:51:25,396 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:25,471 - DEBUG - Received heartbeat frame
+2025-10-17 14:51:25,471 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:55,395 - DEBUG - Sending heartbeat frame
+2025-10-17 14:51:55,395 - DEBUG - Sending heartbeat frame
+2025-10-17 14:51:55,395 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:51:55,395 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:51:55,395 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:55,395 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224694.984 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224664.984; delay=30.0
+2025-10-17 14:51:55,396 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:51:55,396 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:51:55,396 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:51:55,487 - DEBUG - Received heartbeat frame
+2025-10-17 14:51:55,487 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:05,254 - DEBUG - Received 28 heartbeat frames, sent 30, idle intervals 0
+2025-10-17 14:52:05,254 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224739.843 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224674.843; delay=65
+2025-10-17 14:52:25,423 - DEBUG - Sending heartbeat frame
+2025-10-17 14:52:25,423 - DEBUG - Sending heartbeat frame
+2025-10-17 14:52:25,423 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:52:25,423 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:52:25,423 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:25,423 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224725.0 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224695.0; delay=30.0
+2025-10-17 14:52:25,424 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:52:25,424 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:52:25,424 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:25,501 - DEBUG - Received heartbeat frame
+2025-10-17 14:52:25,501 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:55,413 - DEBUG - Sending heartbeat frame
+2025-10-17 14:52:55,413 - DEBUG - Sending heartbeat frame
+2025-10-17 14:52:55,413 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:52:55,413 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:52:55,413 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:55,413 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=224755.0 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224725.0; delay=30.0
+2025-10-17 14:52:55,414 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:52:55,414 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:52:55,414 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:52:55,507 - DEBUG - Received heartbeat frame
+2025-10-17 14:52:55,507 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:10,266 - DEBUG - Received 30 heartbeat frames, sent 32, idle intervals 0
+2025-10-17 14:53:10,266 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224804.843 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224739.843; delay=65
+2025-10-17 14:53:25,414 - DEBUG - Sending heartbeat frame
+2025-10-17 14:53:25,414 - DEBUG - Sending heartbeat frame
+2025-10-17 14:53:25,414 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:53:25,414 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:53:25,414 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:25,414 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224785.0 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224755.0; delay=30.0
+2025-10-17 14:53:25,415 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:53:25,415 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:53:25,415 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:25,523 - DEBUG - Received heartbeat frame
+2025-10-17 14:53:25,523 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:55,413 - DEBUG - Sending heartbeat frame
+2025-10-17 14:53:55,413 - DEBUG - Sending heartbeat frame
+2025-10-17 14:53:55,413 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:53:55,413 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:53:55,413 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:55,413 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224815.0 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224785.0; delay=30.0
+2025-10-17 14:53:55,413 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:53:55,414 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:53:55,414 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:53:55,538 - DEBUG - Received heartbeat frame
+2025-10-17 14:53:55,538 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:15,266 - DEBUG - Received 32 heartbeat frames, sent 34, idle intervals 0
+2025-10-17 14:54:15,266 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224869.843 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224804.843; delay=65
+2025-10-17 14:54:25,436 - DEBUG - Sending heartbeat frame
+2025-10-17 14:54:25,436 - DEBUG - Sending heartbeat frame
+2025-10-17 14:54:25,436 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:54:25,436 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:54:25,436 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:25,436 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=224845.015 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224815.015; delay=30.0
+2025-10-17 14:54:25,436 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:54:25,437 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:54:25,437 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:25,544 - DEBUG - Received heartbeat frame
+2025-10-17 14:54:25,544 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:55,452 - DEBUG - Sending heartbeat frame
+2025-10-17 14:54:55,452 - DEBUG - Sending heartbeat frame
+2025-10-17 14:54:55,452 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:54:55,452 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:54:55,452 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:55,452 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224875.031 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224845.031; delay=30.0
+2025-10-17 14:54:55,453 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:54:55,453 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:54:55,453 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:54:55,546 - DEBUG - Received heartbeat frame
+2025-10-17 14:54:55,546 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:20,278 - DEBUG - Received 34 heartbeat frames, sent 36, idle intervals 0
+2025-10-17 14:55:20,278 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224934.859 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224869.859; delay=65
+2025-10-17 14:55:25,464 - DEBUG - Sending heartbeat frame
+2025-10-17 14:55:25,464 - DEBUG - Sending heartbeat frame
+2025-10-17 14:55:25,464 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:55:25,464 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:55:25,464 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:25,464 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=224905.046 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224875.046; delay=30.0
+2025-10-17 14:55:25,465 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:55:25,465 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:55:25,465 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:25,557 - DEBUG - Received heartbeat frame
+2025-10-17 14:55:25,557 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:55,467 - DEBUG - Sending heartbeat frame
+2025-10-17 14:55:55,467 - DEBUG - Sending heartbeat frame
+2025-10-17 14:55:55,467 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:55:55,467 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:55:55,467 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:55,467 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=224935.046 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224905.046; delay=30.0
+2025-10-17 14:55:55,467 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:55:55,468 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:55:55,468 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:55:55,559 - DEBUG - Received heartbeat frame
+2025-10-17 14:55:55,559 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:25,288 - DEBUG - Received 36 heartbeat frames, sent 38, idle intervals 0
+2025-10-17 14:56:25,288 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=224999.875 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224934.875; delay=65
+2025-10-17 14:56:25,460 - DEBUG - Sending heartbeat frame
+2025-10-17 14:56:25,460 - DEBUG - Sending heartbeat frame
+2025-10-17 14:56:25,460 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:56:25,460 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:56:25,460 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:25,460 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=224965.046 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224935.046; delay=30.0
+2025-10-17 14:56:25,460 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:56:25,461 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:56:25,461 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:25,568 - DEBUG - Received heartbeat frame
+2025-10-17 14:56:25,568 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:55,474 - DEBUG - Sending heartbeat frame
+2025-10-17 14:56:55,474 - DEBUG - Sending heartbeat frame
+2025-10-17 14:56:55,474 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:56:55,474 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:56:55,474 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:55,474 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=224995.062 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224965.062; delay=30.0
+2025-10-17 14:56:55,475 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:56:55,475 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:56:55,475 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:56:55,581 - DEBUG - Received heartbeat frame
+2025-10-17 14:56:55,581 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:25,493 - DEBUG - Sending heartbeat frame
+2025-10-17 14:57:25,493 - DEBUG - Sending heartbeat frame
+2025-10-17 14:57:25,493 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:57:25,493 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:57:25,493 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:25,494 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225025.078 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224995.078; delay=30.0
+2025-10-17 14:57:25,494 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:57:25,494 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:57:25,494 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:25,586 - DEBUG - Received heartbeat frame
+2025-10-17 14:57:25,587 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:30,305 - DEBUG - Received 39 heartbeat frames, sent 41, idle intervals 0
+2025-10-17 14:57:30,305 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225064.89 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=224999.89; delay=65
+2025-10-17 14:57:55,495 - DEBUG - Sending heartbeat frame
+2025-10-17 14:57:55,495 - DEBUG - Sending heartbeat frame
+2025-10-17 14:57:55,495 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:57:55,495 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:57:55,495 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:55,495 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225055.078 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225025.078; delay=30.0
+2025-10-17 14:57:55,496 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:57:55,496 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:57:55,496 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:57:55,603 - DEBUG - Received heartbeat frame
+2025-10-17 14:57:55,603 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:25,537 - DEBUG - Sending heartbeat frame
+2025-10-17 14:58:25,537 - DEBUG - Sending heartbeat frame
+2025-10-17 14:58:25,537 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:58:25,537 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:58:25,537 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:25,537 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225085.125 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225055.125; delay=30.0
+2025-10-17 14:58:25,537 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:58:25,538 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:58:25,538 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:25,668 - DEBUG - Received heartbeat frame
+2025-10-17 14:58:25,668 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:35,305 - DEBUG - Received 41 heartbeat frames, sent 43, idle intervals 0
+2025-10-17 14:58:35,305 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=225129.89 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225064.89; delay=65
+2025-10-17 14:58:55,559 - DEBUG - Sending heartbeat frame
+2025-10-17 14:58:55,559 - DEBUG - Sending heartbeat frame
+2025-10-17 14:58:55,559 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:58:55,559 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:58:55,559 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:55,559 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225115.14 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225085.14; delay=30.0
+2025-10-17 14:58:55,560 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:58:55,560 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:58:55,560 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:58:55,683 - DEBUG - Received heartbeat frame
+2025-10-17 14:58:55,683 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:25,559 - DEBUG - Sending heartbeat frame
+2025-10-17 14:59:25,559 - DEBUG - Sending heartbeat frame
+2025-10-17 14:59:25,559 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:59:25,559 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:59:25,559 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:25,559 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225145.14 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225115.14; delay=30.0
+2025-10-17 14:59:25,560 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:59:25,560 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:59:25,560 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:25,698 - DEBUG - Received heartbeat frame
+2025-10-17 14:59:25,698 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:40,322 - DEBUG - Received 43 heartbeat frames, sent 45, idle intervals 0
+2025-10-17 14:59:40,322 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225194.906 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225129.906; delay=65
+2025-10-17 14:59:55,566 - DEBUG - Sending heartbeat frame
+2025-10-17 14:59:55,566 - DEBUG - Sending heartbeat frame
+2025-10-17 14:59:55,566 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 14:59:55,566 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 14:59:55,566 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:55,566 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225175.156 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225145.156; delay=30.0
+2025-10-17 14:59:55,567 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 14:59:55,567 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 14:59:55,567 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 14:59:55,706 - DEBUG - Received heartbeat frame
+2025-10-17 14:59:55,706 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:25,581 - DEBUG - Sending heartbeat frame
+2025-10-17 15:00:25,581 - DEBUG - Sending heartbeat frame
+2025-10-17 15:00:25,581 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:00:25,581 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:00:25,581 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:25,581 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=225205.171 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225175.171; delay=30.0
+2025-10-17 15:00:25,581 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:00:25,582 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:00:25,582 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:25,721 - DEBUG - Received heartbeat frame
+2025-10-17 15:00:25,721 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:45,333 - DEBUG - Received 45 heartbeat frames, sent 47, idle intervals 0
+2025-10-17 15:00:45,333 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225259.921 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225194.921; delay=65
+2025-10-17 15:00:55,609 - DEBUG - Sending heartbeat frame
+2025-10-17 15:00:55,609 - DEBUG - Sending heartbeat frame
+2025-10-17 15:00:55,609 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:00:55,609 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:00:55,609 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:55,609 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225235.187 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225205.187; delay=30.0
+2025-10-17 15:00:55,609 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:00:55,610 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:00:55,610 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:00:55,735 - DEBUG - Received heartbeat frame
+2025-10-17 15:00:55,735 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:25,602 - DEBUG - Sending heartbeat frame
+2025-10-17 15:01:25,602 - DEBUG - Sending heartbeat frame
+2025-10-17 15:01:25,602 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:01:25,602 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:01:25,602 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:25,602 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225265.187 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225235.187; delay=30.0
+2025-10-17 15:01:25,602 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:01:25,603 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:01:25,603 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:25,743 - DEBUG - Received heartbeat frame
+2025-10-17 15:01:25,743 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:50,336 - DEBUG - Received 47 heartbeat frames, sent 49, idle intervals 0
+2025-10-17 15:01:50,336 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225324.921 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225259.921; delay=65
+2025-10-17 15:01:55,621 - DEBUG - Sending heartbeat frame
+2025-10-17 15:01:55,621 - DEBUG - Sending heartbeat frame
+2025-10-17 15:01:55,621 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:01:55,621 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:01:55,621 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:55,621 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=225295.203 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225265.203; delay=30.0
+2025-10-17 15:01:55,622 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:01:55,622 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:01:55,622 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:01:55,760 - DEBUG - Received heartbeat frame
+2025-10-17 15:01:55,760 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:25,631 - DEBUG - Sending heartbeat frame
+2025-10-17 15:02:25,631 - DEBUG - Sending heartbeat frame
+2025-10-17 15:02:25,631 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:02:25,631 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:02:25,631 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:25,631 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225325.218 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225295.218; delay=30.0
+2025-10-17 15:02:25,631 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:02:25,632 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:02:25,632 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:25,771 - DEBUG - Received heartbeat frame
+2025-10-17 15:02:25,771 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:55,353 - DEBUG - Received 49 heartbeat frames, sent 51, idle intervals 0
+2025-10-17 15:02:55,353 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225389.937 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225324.937; delay=65
+2025-10-17 15:02:55,649 - DEBUG - Sending heartbeat frame
+2025-10-17 15:02:55,649 - DEBUG - Sending heartbeat frame
+2025-10-17 15:02:55,649 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:02:55,649 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:02:55,649 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:55,649 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225355.234 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225325.234; delay=30.0
+2025-10-17 15:02:55,649 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:02:55,650 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:02:55,650 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:02:55,774 - DEBUG - Received heartbeat frame
+2025-10-17 15:02:55,774 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:25,654 - DEBUG - Sending heartbeat frame
+2025-10-17 15:03:25,654 - DEBUG - Sending heartbeat frame
+2025-10-17 15:03:25,654 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:03:25,654 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:03:25,654 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:25,654 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225385.234 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225355.234; delay=30.0
+2025-10-17 15:03:25,654 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:03:25,655 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:03:25,655 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:25,779 - DEBUG - Received heartbeat frame
+2025-10-17 15:03:25,779 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:55,650 - DEBUG - Sending heartbeat frame
+2025-10-17 15:03:55,650 - DEBUG - Sending heartbeat frame
+2025-10-17 15:03:55,650 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:03:55,650 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:03:55,650 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:55,650 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225415.234 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225385.234; delay=30.0
+2025-10-17 15:03:55,651 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:03:55,651 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:03:55,651 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:03:55,789 - DEBUG - Received heartbeat frame
+2025-10-17 15:03:55,789 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:00,361 - DEBUG - Received 52 heartbeat frames, sent 54, idle intervals 0
+2025-10-17 15:04:00,361 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225454.937 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225389.937; delay=65
+2025-10-17 15:04:25,663 - DEBUG - Sending heartbeat frame
+2025-10-17 15:04:25,663 - DEBUG - Sending heartbeat frame
+2025-10-17 15:04:25,663 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:04:25,663 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:04:25,663 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:25,663 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225445.25 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225415.25; delay=30.0
+2025-10-17 15:04:25,664 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:04:25,664 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:04:25,664 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:25,802 - DEBUG - Received heartbeat frame
+2025-10-17 15:04:25,802 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:55,669 - DEBUG - Sending heartbeat frame
+2025-10-17 15:04:55,669 - DEBUG - Sending heartbeat frame
+2025-10-17 15:04:55,669 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:04:55,669 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:04:55,669 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:55,669 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225475.25 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225445.25; delay=30.0
+2025-10-17 15:04:55,669 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:04:55,670 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:04:55,670 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:04:55,808 - DEBUG - Received heartbeat frame
+2025-10-17 15:04:55,808 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:05,366 - DEBUG - Received 54 heartbeat frames, sent 56, idle intervals 0
+2025-10-17 15:05:05,366 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225519.953 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225454.953; delay=65
+2025-10-17 15:05:25,679 - DEBUG - Sending heartbeat frame
+2025-10-17 15:05:25,679 - DEBUG - Sending heartbeat frame
+2025-10-17 15:05:25,679 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:05:25,679 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:05:25,679 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:25,679 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225505.265 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225475.265; delay=30.0
+2025-10-17 15:05:25,679 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:05:25,680 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:05:25,680 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:25,818 - DEBUG - Received heartbeat frame
+2025-10-17 15:05:25,818 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:55,690 - DEBUG - Sending heartbeat frame
+2025-10-17 15:05:55,690 - DEBUG - Sending heartbeat frame
+2025-10-17 15:05:55,690 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:05:55,690 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:05:55,690 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:55,690 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225535.265 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225505.265; delay=30.0
+2025-10-17 15:05:55,691 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:05:55,691 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:05:55,691 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:05:55,829 - DEBUG - Received heartbeat frame
+2025-10-17 15:05:55,829 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:10,370 - DEBUG - Received 56 heartbeat frames, sent 58, idle intervals 0
+2025-10-17 15:06:10,370 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225584.953 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225519.953; delay=65
+2025-10-17 15:06:25,676 - DEBUG - Sending heartbeat frame
+2025-10-17 15:06:25,676 - DEBUG - Sending heartbeat frame
+2025-10-17 15:06:25,676 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:06:25,676 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:06:25,676 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:25,676 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225565.265 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225535.265; delay=30.0
+2025-10-17 15:06:25,677 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:06:25,677 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:06:25,677 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:25,832 - DEBUG - Received heartbeat frame
+2025-10-17 15:06:25,832 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:55,705 - DEBUG - Sending heartbeat frame
+2025-10-17 15:06:55,705 - DEBUG - Sending heartbeat frame
+2025-10-17 15:06:55,705 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:06:55,705 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:06:55,705 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:55,705 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225595.281 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225565.281; delay=30.0
+2025-10-17 15:06:55,706 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:06:55,706 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:06:55,706 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:06:55,845 - DEBUG - Received heartbeat frame
+2025-10-17 15:06:55,845 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:15,380 - DEBUG - Received 58 heartbeat frames, sent 60, idle intervals 0
+2025-10-17 15:07:15,380 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225649.968 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225584.968; delay=65
+2025-10-17 15:07:25,705 - DEBUG - Sending heartbeat frame
+2025-10-17 15:07:25,705 - DEBUG - Sending heartbeat frame
+2025-10-17 15:07:25,705 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:07:25,705 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:07:25,705 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:25,705 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225625.281 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225595.281; delay=30.0
+2025-10-17 15:07:25,706 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:07:25,706 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:07:25,706 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:25,859 - DEBUG - Received heartbeat frame
+2025-10-17 15:07:25,859 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:55,698 - DEBUG - Sending heartbeat frame
+2025-10-17 15:07:55,698 - DEBUG - Sending heartbeat frame
+2025-10-17 15:07:55,698 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:07:55,698 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:07:55,698 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:55,698 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225655.281 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225625.281; delay=30.0
+2025-10-17 15:07:55,699 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:07:55,699 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:07:55,699 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:07:55,869 - DEBUG - Received heartbeat frame
+2025-10-17 15:07:55,869 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:20,385 - DEBUG - Received 60 heartbeat frames, sent 62, idle intervals 0
+2025-10-17 15:08:20,385 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225714.968 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225649.968; delay=65
+2025-10-17 15:08:25,718 - DEBUG - Sending heartbeat frame
+2025-10-17 15:08:25,718 - DEBUG - Sending heartbeat frame
+2025-10-17 15:08:25,718 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:08:25,718 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:08:25,718 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:25,718 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=225685.296 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225655.296; delay=30.0
+2025-10-17 15:08:25,718 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:08:25,719 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:08:25,719 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:25,873 - DEBUG - Received heartbeat frame
+2025-10-17 15:08:25,873 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:55,723 - DEBUG - Sending heartbeat frame
+2025-10-17 15:08:55,723 - DEBUG - Sending heartbeat frame
+2025-10-17 15:08:55,723 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:08:55,723 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:08:55,723 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:55,723 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225715.312 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225685.312; delay=30.0
+2025-10-17 15:08:55,723 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:08:55,724 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:08:55,724 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:08:55,879 - DEBUG - Received heartbeat frame
+2025-10-17 15:08:55,879 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:25,388 - DEBUG - Received 62 heartbeat frames, sent 64, idle intervals 0
+2025-10-17 15:09:25,388 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225779.968 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225714.968; delay=65
+2025-10-17 15:09:25,746 - DEBUG - Sending heartbeat frame
+2025-10-17 15:09:25,746 - DEBUG - Sending heartbeat frame
+2025-10-17 15:09:25,746 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:09:25,746 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:09:25,746 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:25,746 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225745.328 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225715.328; delay=30.0
+2025-10-17 15:09:25,747 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:09:25,747 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:09:25,747 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:25,888 - DEBUG - Received heartbeat frame
+2025-10-17 15:09:25,888 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:55,764 - DEBUG - Sending heartbeat frame
+2025-10-17 15:09:55,764 - DEBUG - Sending heartbeat frame
+2025-10-17 15:09:55,764 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:09:55,764 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:09:55,764 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:55,764 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225775.343 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225745.343; delay=30.0
+2025-10-17 15:09:55,765 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:09:55,765 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:09:55,765 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:09:55,903 - DEBUG - Received heartbeat frame
+2025-10-17 15:09:55,903 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:25,770 - DEBUG - Sending heartbeat frame
+2025-10-17 15:10:25,770 - DEBUG - Sending heartbeat frame
+2025-10-17 15:10:25,770 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:10:25,770 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:10:25,770 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:25,770 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225805.359 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225775.359; delay=30.0
+2025-10-17 15:10:25,770 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:10:25,771 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:10:25,771 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:25,910 - DEBUG - Received heartbeat frame
+2025-10-17 15:10:25,910 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:30,382 - DEBUG - Received 65 heartbeat frames, sent 67, idle intervals 0
+2025-10-17 15:10:30,382 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=225844.968 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225779.968; delay=65
+2025-10-17 15:10:55,786 - DEBUG - Sending heartbeat frame
+2025-10-17 15:10:55,786 - DEBUG - Sending heartbeat frame
+2025-10-17 15:10:55,786 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:10:55,786 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:10:55,786 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:55,786 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225835.375 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225805.375; delay=30.0
+2025-10-17 15:10:55,786 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:10:55,787 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:10:55,787 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:10:55,927 - DEBUG - Received heartbeat frame
+2025-10-17 15:10:55,927 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:25,804 - DEBUG - Sending heartbeat frame
+2025-10-17 15:11:25,804 - DEBUG - Sending heartbeat frame
+2025-10-17 15:11:25,804 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:11:25,804 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:11:25,804 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:25,804 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225865.39 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225835.39; delay=30.0
+2025-10-17 15:11:25,804 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:11:25,805 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:11:25,805 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:25,942 - DEBUG - Received heartbeat frame
+2025-10-17 15:11:25,942 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:35,392 - DEBUG - Received 67 heartbeat frames, sent 69, idle intervals 0
+2025-10-17 15:11:35,392 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225909.968 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225844.968; delay=65
+2025-10-17 15:11:55,824 - DEBUG - Sending heartbeat frame
+2025-10-17 15:11:55,824 - DEBUG - Sending heartbeat frame
+2025-10-17 15:11:55,824 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:11:55,824 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:11:55,824 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:55,824 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=225895.406 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225865.406; delay=30.0
+2025-10-17 15:11:55,825 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:11:55,825 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:11:55,825 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:11:55,948 - DEBUG - Received heartbeat frame
+2025-10-17 15:11:55,948 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:25,836 - DEBUG - Sending heartbeat frame
+2025-10-17 15:12:25,836 - DEBUG - Sending heartbeat frame
+2025-10-17 15:12:25,836 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:12:25,836 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:12:25,836 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:25,836 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=225925.421 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225895.421; delay=30.0
+2025-10-17 15:12:25,837 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:12:25,837 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:12:25,837 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:25,960 - DEBUG - Received heartbeat frame
+2025-10-17 15:12:25,960 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:40,394 - DEBUG - Received 69 heartbeat frames, sent 71, idle intervals 0
+2025-10-17 15:12:40,394 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=225974.984 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225909.984; delay=65
+2025-10-17 15:12:55,847 - DEBUG - Sending heartbeat frame
+2025-10-17 15:12:55,847 - DEBUG - Sending heartbeat frame
+2025-10-17 15:12:55,847 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:12:55,847 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:12:55,847 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:55,847 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=225955.437 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225925.437; delay=30.0
+2025-10-17 15:12:55,848 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:12:55,848 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:12:55,848 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:12:55,973 - DEBUG - Received heartbeat frame
+2025-10-17 15:12:55,973 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:25,872 - DEBUG - Sending heartbeat frame
+2025-10-17 15:13:25,872 - DEBUG - Sending heartbeat frame
+2025-10-17 15:13:25,872 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:13:25,872 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:13:25,872 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:25,872 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=225985.453 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225955.453; delay=30.0
+2025-10-17 15:13:25,873 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:13:25,873 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:13:25,873 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:25,980 - DEBUG - Received heartbeat frame
+2025-10-17 15:13:25,980 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:45,412 - DEBUG - Received 71 heartbeat frames, sent 73, idle intervals 0
+2025-10-17 15:13:45,412 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226040.0 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225975.0; delay=65
+2025-10-17 15:13:55,876 - DEBUG - Sending heartbeat frame
+2025-10-17 15:13:55,876 - DEBUG - Sending heartbeat frame
+2025-10-17 15:13:55,876 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:13:55,876 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:13:55,876 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:55,876 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226015.453 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=225985.453; delay=30.0
+2025-10-17 15:13:55,876 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:13:55,877 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:13:55,877 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:13:55,984 - DEBUG - Received heartbeat frame
+2025-10-17 15:13:55,984 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:25,867 - DEBUG - Sending heartbeat frame
+2025-10-17 15:14:25,867 - DEBUG - Sending heartbeat frame
+2025-10-17 15:14:25,867 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:14:25,867 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:14:25,867 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:25,867 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226045.453 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226015.453; delay=30.0
+2025-10-17 15:14:25,867 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:14:25,868 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:14:25,868 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:25,991 - DEBUG - Received heartbeat frame
+2025-10-17 15:14:25,991 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:50,420 - DEBUG - Received 73 heartbeat frames, sent 75, idle intervals 0
+2025-10-17 15:14:50,420 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=226105.0 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226040.0; delay=65
+2025-10-17 15:14:55,873 - DEBUG - Sending heartbeat frame
+2025-10-17 15:14:55,873 - DEBUG - Sending heartbeat frame
+2025-10-17 15:14:55,873 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:14:55,873 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:14:55,873 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:55,873 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=226075.453 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226045.453; delay=30.0
+2025-10-17 15:14:55,873 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:14:55,874 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:14:55,874 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:14:55,995 - DEBUG - Received heartbeat frame
+2025-10-17 15:14:55,995 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:25,876 - DEBUG - Sending heartbeat frame
+2025-10-17 15:15:25,876 - DEBUG - Sending heartbeat frame
+2025-10-17 15:15:25,876 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:15:25,876 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:15:25,876 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:25,877 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226105.453 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226075.453; delay=30.0
+2025-10-17 15:15:25,877 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:15:25,877 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:15:25,877 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:26,002 - DEBUG - Received heartbeat frame
+2025-10-17 15:15:26,003 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:55,423 - DEBUG - Received 75 heartbeat frames, sent 77, idle intervals 0
+2025-10-17 15:15:55,423 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226170.0 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226105.0; delay=65
+2025-10-17 15:15:55,890 - DEBUG - Sending heartbeat frame
+2025-10-17 15:15:55,890 - DEBUG - Sending heartbeat frame
+2025-10-17 15:15:55,890 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:15:55,890 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:15:55,890 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:55,890 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226135.468 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226105.468; delay=30.0
+2025-10-17 15:15:55,890 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:15:55,891 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:15:55,891 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:15:56,016 - DEBUG - Received heartbeat frame
+2025-10-17 15:15:56,016 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:25,904 - DEBUG - Sending heartbeat frame
+2025-10-17 15:16:25,904 - DEBUG - Sending heartbeat frame
+2025-10-17 15:16:25,904 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:16:25,904 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:16:25,904 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:25,904 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=226165.484 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226135.484; delay=30.0
+2025-10-17 15:16:25,904 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:16:25,905 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:16:25,905 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:26,029 - DEBUG - Received heartbeat frame
+2025-10-17 15:16:26,029 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:55,902 - DEBUG - Sending heartbeat frame
+2025-10-17 15:16:55,902 - DEBUG - Sending heartbeat frame
+2025-10-17 15:16:55,902 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:16:55,902 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:16:55,902 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:55,902 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226195.484 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226165.484; delay=30.0
+2025-10-17 15:16:55,903 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:16:55,903 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:16:55,903 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:16:56,043 - DEBUG - Received heartbeat frame
+2025-10-17 15:16:56,043 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:00,428 - DEBUG - Received 78 heartbeat frames, sent 80, idle intervals 0
+2025-10-17 15:17:00,428 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226235.015 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226170.015; delay=65
+2025-10-17 15:17:25,906 - DEBUG - Sending heartbeat frame
+2025-10-17 15:17:25,906 - DEBUG - Sending heartbeat frame
+2025-10-17 15:17:25,906 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:17:25,906 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:17:25,906 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:25,906 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226225.484 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226195.484; delay=30.0
+2025-10-17 15:17:25,907 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:17:25,907 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:17:25,907 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:26,045 - DEBUG - Received heartbeat frame
+2025-10-17 15:17:26,045 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:55,909 - DEBUG - Sending heartbeat frame
+2025-10-17 15:17:55,909 - DEBUG - Sending heartbeat frame
+2025-10-17 15:17:55,909 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:17:55,909 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:17:55,909 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:55,910 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226255.5 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226225.5; delay=30.0
+2025-10-17 15:17:55,910 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:17:55,910 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:17:55,910 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:17:56,048 - DEBUG - Received heartbeat frame
+2025-10-17 15:17:56,048 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:05,438 - DEBUG - Received 80 heartbeat frames, sent 82, idle intervals 0
+2025-10-17 15:18:05,438 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=226300.015 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226235.015; delay=65
+2025-10-17 15:18:25,919 - DEBUG - Sending heartbeat frame
+2025-10-17 15:18:25,919 - DEBUG - Sending heartbeat frame
+2025-10-17 15:18:25,919 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:18:25,919 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:18:25,919 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:25,919 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226285.5 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226255.5; delay=30.0
+2025-10-17 15:18:25,919 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:18:25,920 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:18:25,920 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:26,057 - DEBUG - Received heartbeat frame
+2025-10-17 15:18:26,057 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:55,924 - DEBUG - Sending heartbeat frame
+2025-10-17 15:18:55,924 - DEBUG - Sending heartbeat frame
+2025-10-17 15:18:55,924 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:18:55,924 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:18:55,924 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:55,924 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226315.5 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226285.5; delay=30.0
+2025-10-17 15:18:55,925 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:18:55,925 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:18:55,925 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:18:56,063 - DEBUG - Received heartbeat frame
+2025-10-17 15:18:56,063 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:10,439 - DEBUG - Received 82 heartbeat frames, sent 84, idle intervals 0
+2025-10-17 15:19:10,439 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226365.015 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226300.015; delay=65
+2025-10-17 15:19:25,927 - DEBUG - Sending heartbeat frame
+2025-10-17 15:19:25,927 - DEBUG - Sending heartbeat frame
+2025-10-17 15:19:25,927 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:19:25,927 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:19:25,927 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:25,927 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226345.515 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226315.515; delay=30.0
+2025-10-17 15:19:25,928 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:19:25,928 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:19:25,928 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:26,067 - DEBUG - Received heartbeat frame
+2025-10-17 15:19:26,067 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:55,935 - DEBUG - Sending heartbeat frame
+2025-10-17 15:19:55,935 - DEBUG - Sending heartbeat frame
+2025-10-17 15:19:55,935 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:19:55,935 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:19:55,935 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:55,935 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=226375.515 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226345.515; delay=30.0
+2025-10-17 15:19:55,936 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:19:55,936 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:19:55,936 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:19:56,077 - DEBUG - Received heartbeat frame
+2025-10-17 15:19:56,077 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:15,442 - DEBUG - Received 84 heartbeat frames, sent 86, idle intervals 0
+2025-10-17 15:20:15,442 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226430.031 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226365.031; delay=65
+2025-10-17 15:20:25,948 - DEBUG - Sending heartbeat frame
+2025-10-17 15:20:25,948 - DEBUG - Sending heartbeat frame
+2025-10-17 15:20:25,948 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:20:25,948 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:20:25,948 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:25,948 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226405.531 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226375.531; delay=30.0
+2025-10-17 15:20:25,948 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:20:25,949 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:20:25,949 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:26,087 - DEBUG - Received heartbeat frame
+2025-10-17 15:20:26,087 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:55,965 - DEBUG - Sending heartbeat frame
+2025-10-17 15:20:55,965 - DEBUG - Sending heartbeat frame
+2025-10-17 15:20:55,965 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:20:55,965 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:20:55,965 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:55,966 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226435.546 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226405.546; delay=30.0
+2025-10-17 15:20:55,966 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:20:55,966 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:20:55,966 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:20:56,089 - DEBUG - Received heartbeat frame
+2025-10-17 15:20:56,089 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:20,449 - DEBUG - Received 86 heartbeat frames, sent 88, idle intervals 0
+2025-10-17 15:21:20,449 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226495.031 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226430.031; delay=65
+2025-10-17 15:21:25,976 - DEBUG - Sending heartbeat frame
+2025-10-17 15:21:25,976 - DEBUG - Sending heartbeat frame
+2025-10-17 15:21:25,976 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:21:25,976 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:21:25,976 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:25,976 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=226465.562 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226435.562; delay=30.0
+2025-10-17 15:21:25,976 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:21:25,977 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:21:25,977 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:26,099 - DEBUG - Received heartbeat frame
+2025-10-17 15:21:26,099 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:55,981 - DEBUG - Sending heartbeat frame
+2025-10-17 15:21:55,981 - DEBUG - Sending heartbeat frame
+2025-10-17 15:21:55,981 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:21:55,981 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:21:55,981 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:55,981 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226495.562 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226465.562; delay=30.0
+2025-10-17 15:21:55,982 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:21:55,982 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:21:55,982 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:21:56,105 - DEBUG - Received heartbeat frame
+2025-10-17 15:21:56,105 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:25,444 - DEBUG - Received 88 heartbeat frames, sent 90, idle intervals 0
+2025-10-17 15:22:25,444 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226560.031 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226495.031; delay=65
+2025-10-17 15:22:25,987 - DEBUG - Sending heartbeat frame
+2025-10-17 15:22:25,987 - DEBUG - Sending heartbeat frame
+2025-10-17 15:22:25,987 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:22:25,987 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:22:25,987 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:25,987 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226525.562 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226495.562; delay=30.0
+2025-10-17 15:22:25,988 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:22:25,988 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:22:25,988 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:26,126 - DEBUG - Received heartbeat frame
+2025-10-17 15:22:26,126 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:55,974 - DEBUG - Sending heartbeat frame
+2025-10-17 15:22:55,974 - DEBUG - Sending heartbeat frame
+2025-10-17 15:22:55,974 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:22:55,974 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:22:55,974 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:55,975 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226555.562 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226525.562; delay=30.0
+2025-10-17 15:22:55,975 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:22:55,975 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:22:55,975 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:22:56,128 - DEBUG - Received heartbeat frame
+2025-10-17 15:22:56,128 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:25,992 - DEBUG - Sending heartbeat frame
+2025-10-17 15:23:25,992 - DEBUG - Sending heartbeat frame
+2025-10-17 15:23:25,992 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:23:25,992 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:23:25,992 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:25,992 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226585.578 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226555.578; delay=30.0
+2025-10-17 15:23:25,992 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:23:25,993 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:23:25,993 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:26,145 - DEBUG - Received heartbeat frame
+2025-10-17 15:23:26,145 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:30,445 - DEBUG - Received 91 heartbeat frames, sent 93, idle intervals 0
+2025-10-17 15:23:30,445 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=226625.031 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226560.031; delay=65
+2025-10-17 15:23:56,011 - DEBUG - Sending heartbeat frame
+2025-10-17 15:23:56,011 - DEBUG - Sending heartbeat frame
+2025-10-17 15:23:56,011 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:23:56,011 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:23:56,011 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:56,011 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226615.593 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226585.593; delay=30.0
+2025-10-17 15:23:56,011 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:23:56,012 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:23:56,012 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:23:56,153 - DEBUG - Received heartbeat frame
+2025-10-17 15:23:56,153 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:26,029 - DEBUG - Sending heartbeat frame
+2025-10-17 15:24:26,029 - DEBUG - Sending heartbeat frame
+2025-10-17 15:24:26,029 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:24:26,029 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:24:26,029 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:26,029 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226645.609 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226615.609; delay=30.0
+2025-10-17 15:24:26,030 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:24:26,030 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:24:26,030 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:26,169 - DEBUG - Received heartbeat frame
+2025-10-17 15:24:26,169 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:35,458 - DEBUG - Received 93 heartbeat frames, sent 95, idle intervals 0
+2025-10-17 15:24:35,458 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226690.046 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226625.046; delay=65
+2025-10-17 15:24:56,044 - DEBUG - Sending heartbeat frame
+2025-10-17 15:24:56,044 - DEBUG - Sending heartbeat frame
+2025-10-17 15:24:56,044 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:24:56,044 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:24:56,044 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:56,044 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226675.625 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226645.625; delay=30.0
+2025-10-17 15:24:56,045 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:24:56,045 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:24:56,045 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:24:56,185 - DEBUG - Received heartbeat frame
+2025-10-17 15:24:56,185 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:26,061 - DEBUG - Sending heartbeat frame
+2025-10-17 15:25:26,061 - DEBUG - Sending heartbeat frame
+2025-10-17 15:25:26,061 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:25:26,061 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:25:26,061 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:26,061 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=226705.64 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226675.64; delay=30.0
+2025-10-17 15:25:26,062 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:25:26,062 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:25:26,062 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:26,199 - DEBUG - Received heartbeat frame
+2025-10-17 15:25:26,199 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:40,480 - DEBUG - Received 95 heartbeat frames, sent 97, idle intervals 0
+2025-10-17 15:25:40,480 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226755.062 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226690.062; delay=65
+2025-10-17 15:25:56,060 - DEBUG - Sending heartbeat frame
+2025-10-17 15:25:56,060 - DEBUG - Sending heartbeat frame
+2025-10-17 15:25:56,060 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:25:56,060 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:25:56,060 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:56,060 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226735.64 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226705.64; delay=30.0
+2025-10-17 15:25:56,060 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:25:56,061 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:25:56,061 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:25:56,199 - DEBUG - Received heartbeat frame
+2025-10-17 15:25:56,199 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:26,072 - DEBUG - Sending heartbeat frame
+2025-10-17 15:26:26,072 - DEBUG - Sending heartbeat frame
+2025-10-17 15:26:26,072 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:26:26,072 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:26:26,072 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:26,072 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226765.656 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226735.656; delay=30.0
+2025-10-17 15:26:26,072 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:26:26,073 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:26:26,073 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:26,212 - DEBUG - Received heartbeat frame
+2025-10-17 15:26:26,212 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:45,478 - DEBUG - Received 97 heartbeat frames, sent 99, idle intervals 0
+2025-10-17 15:26:45,478 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226820.062 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226755.062; delay=65
+2025-10-17 15:26:56,085 - DEBUG - Sending heartbeat frame
+2025-10-17 15:26:56,085 - DEBUG - Sending heartbeat frame
+2025-10-17 15:26:56,085 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:26:56,085 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:26:56,085 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:56,085 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=226795.671 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226765.671; delay=30.0
+2025-10-17 15:26:56,085 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:26:56,086 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:26:56,086 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:26:56,226 - DEBUG - Received heartbeat frame
+2025-10-17 15:26:56,226 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:26,108 - DEBUG - Sending heartbeat frame
+2025-10-17 15:27:26,108 - DEBUG - Sending heartbeat frame
+2025-10-17 15:27:26,108 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:27:26,108 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:27:26,108 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:26,108 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226825.687 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226795.687; delay=30.0
+2025-10-17 15:27:26,109 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:27:26,109 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:27:26,109 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:26,231 - DEBUG - Received heartbeat frame
+2025-10-17 15:27:26,231 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:50,490 - DEBUG - Received 99 heartbeat frames, sent 101, idle intervals 0
+2025-10-17 15:27:50,490 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226885.078 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226820.078; delay=65
+2025-10-17 15:27:56,112 - DEBUG - Sending heartbeat frame
+2025-10-17 15:27:56,112 - DEBUG - Sending heartbeat frame
+2025-10-17 15:27:56,112 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:27:56,112 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:27:56,112 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:56,112 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EC50> with deadline=226855.687 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226825.687; delay=30.0
+2025-10-17 15:27:56,112 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:27:56,113 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:27:56,113 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:27:56,236 - DEBUG - Received heartbeat frame
+2025-10-17 15:27:56,236 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:26,116 - DEBUG - Sending heartbeat frame
+2025-10-17 15:28:26,116 - DEBUG - Sending heartbeat frame
+2025-10-17 15:28:26,116 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:28:26,116 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:28:26,116 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:26,116 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226885.703 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226855.703; delay=30.0
+2025-10-17 15:28:26,116 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:28:26,117 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:28:26,117 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:26,240 - DEBUG - Received heartbeat frame
+2025-10-17 15:28:26,240 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:55,509 - DEBUG - Received 101 heartbeat frames, sent 103, idle intervals 0
+2025-10-17 15:28:55,509 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=226950.093 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226885.093; delay=65
+2025-10-17 15:28:56,131 - DEBUG - Sending heartbeat frame
+2025-10-17 15:28:56,131 - DEBUG - Sending heartbeat frame
+2025-10-17 15:28:56,131 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:28:56,131 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:28:56,131 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:56,131 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=226915.718 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226885.718; delay=30.0
+2025-10-17 15:28:56,131 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:28:56,132 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:28:56,132 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:28:56,254 - DEBUG - Received heartbeat frame
+2025-10-17 15:28:56,254 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:26,147 - DEBUG - Sending heartbeat frame
+2025-10-17 15:29:26,147 - DEBUG - Sending heartbeat frame
+2025-10-17 15:29:26,147 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:29:26,147 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:29:26,147 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:26,149 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=226945.734 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226915.734; delay=30.0
+2025-10-17 15:29:26,149 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:29:26,149 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:29:26,149 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:26,257 - DEBUG - Received heartbeat frame
+2025-10-17 15:29:26,257 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:56,168 - DEBUG - Sending heartbeat frame
+2025-10-17 15:29:56,168 - DEBUG - Sending heartbeat frame
+2025-10-17 15:29:56,168 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:29:56,168 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:29:56,168 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:56,168 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=226975.75 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226945.75; delay=30.0
+2025-10-17 15:29:56,168 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:29:56,169 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:29:56,169 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:29:56,259 - DEBUG - Received heartbeat frame
+2025-10-17 15:29:56,259 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:00,524 - DEBUG - Received 104 heartbeat frames, sent 106, idle intervals 0
+2025-10-17 15:30:00,524 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=227015.109 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226950.109; delay=65
+2025-10-17 15:30:26,176 - DEBUG - Sending heartbeat frame
+2025-10-17 15:30:26,176 - DEBUG - Sending heartbeat frame
+2025-10-17 15:30:26,176 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:30:26,176 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:30:26,176 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:26,176 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=227005.765 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=226975.765; delay=30.0
+2025-10-17 15:30:26,177 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:30:26,177 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:30:26,177 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:26,269 - DEBUG - Received heartbeat frame
+2025-10-17 15:30:26,269 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:56,185 - DEBUG - Sending heartbeat frame
+2025-10-17 15:30:56,185 - DEBUG - Sending heartbeat frame
+2025-10-17 15:30:56,185 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:30:56,185 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:30:56,185 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:56,185 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=227035.765 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227005.765; delay=30.0
+2025-10-17 15:30:56,186 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:30:56,186 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:30:56,186 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:30:56,277 - DEBUG - Received heartbeat frame
+2025-10-17 15:30:56,277 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:05,538 - DEBUG - Received 106 heartbeat frames, sent 108, idle intervals 0
+2025-10-17 15:31:05,538 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=227080.125 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227015.125; delay=65
+2025-10-17 15:31:26,199 - DEBUG - Sending heartbeat frame
+2025-10-17 15:31:26,199 - DEBUG - Sending heartbeat frame
+2025-10-17 15:31:26,199 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:31:26,199 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:31:26,199 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:26,200 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=227065.781 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227035.781; delay=30.0
+2025-10-17 15:31:26,200 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:31:26,200 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:31:26,200 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:26,290 - DEBUG - Received heartbeat frame
+2025-10-17 15:31:26,290 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:56,200 - DEBUG - Sending heartbeat frame
+2025-10-17 15:31:56,200 - DEBUG - Sending heartbeat frame
+2025-10-17 15:31:56,200 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:31:56,200 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:31:56,200 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:56,201 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=227095.781 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227065.781; delay=30.0
+2025-10-17 15:31:56,201 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:31:56,201 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:31:56,201 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:31:56,293 - DEBUG - Received heartbeat frame
+2025-10-17 15:31:56,293 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:10,549 - DEBUG - Received 108 heartbeat frames, sent 110, idle intervals 0
+2025-10-17 15:32:10,549 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=227145.125 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227080.125; delay=65
+2025-10-17 15:32:26,216 - DEBUG - Sending heartbeat frame
+2025-10-17 15:32:26,216 - DEBUG - Sending heartbeat frame
+2025-10-17 15:32:26,216 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:32:26,216 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:32:26,216 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:26,216 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=227125.796 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227095.796; delay=30.0
+2025-10-17 15:32:26,217 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:32:26,217 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:32:26,217 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:26,308 - DEBUG - Received heartbeat frame
+2025-10-17 15:32:26,308 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:56,225 - DEBUG - Sending heartbeat frame
+2025-10-17 15:32:56,225 - DEBUG - Sending heartbeat frame
+2025-10-17 15:32:56,225 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:32:56,225 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:32:56,225 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:56,225 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=227155.812 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227125.812; delay=30.0
+2025-10-17 15:32:56,225 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:32:56,226 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:32:56,226 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:32:56,318 - DEBUG - Received heartbeat frame
+2025-10-17 15:32:56,319 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:15,549 - DEBUG - Received 110 heartbeat frames, sent 112, idle intervals 0
+2025-10-17 15:33:15,549 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2EE00> with deadline=227210.125 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227145.125; delay=65
+2025-10-17 15:33:26,239 - DEBUG - Sending heartbeat frame
+2025-10-17 15:33:26,239 - DEBUG - Sending heartbeat frame
+2025-10-17 15:33:26,239 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:33:26,239 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:33:26,239 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:26,239 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F310> with deadline=227185.828 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227155.828; delay=30.0
+2025-10-17 15:33:26,239 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:33:26,240 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:33:26,240 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:26,332 - DEBUG - Received heartbeat frame
+2025-10-17 15:33:26,332 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:56,260 - DEBUG - Sending heartbeat frame
+2025-10-17 15:33:56,260 - DEBUG - Sending heartbeat frame
+2025-10-17 15:33:56,260 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:33:56,260 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:33:56,260 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:56,260 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F970> with deadline=227215.843 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227185.843; delay=30.0
+2025-10-17 15:33:56,261 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:33:56,261 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:33:56,261 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:33:56,338 - DEBUG - Received heartbeat frame
+2025-10-17 15:33:56,338 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:34:20,560 - DEBUG - Received 112 heartbeat frames, sent 114, idle intervals 0
+2025-10-17 15:34:20,560 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2F7C0> with deadline=227275.14 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227210.14; delay=65
+2025-10-17 15:34:26,282 - DEBUG - Sending heartbeat frame
+2025-10-17 15:34:26,282 - DEBUG - Sending heartbeat frame
+2025-10-17 15:34:26,282 - DEBUG - SelectorIOServicesAdapter.set_writer(1644, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000025467E30950>>)
+2025-10-17 15:34:26,282 - DEBUG - set_writer(1644, _) updated handler RdWr
+2025-10-17 15:34:26,282 - DEBUG - Turned on writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:34:26,282 - DEBUG - call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x0000025467E2E890> with deadline=227245.859 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x0000025462E02F90>>; now=227215.859; delay=30.0
+2025-10-17 15:34:26,283 - DEBUG - SelectorIOServicesAdapter.remove_writer(1644)
+2025-10-17 15:34:26,283 - DEBUG - remove_writer(1644) updated handler Rd
+2025-10-17 15:34:26,283 - DEBUG - Turned off writability watcher: <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-17 15:34:26,344 - DEBUG - Received heartbeat frame
+2025-10-17 15:34:26,344 - DEBUG - Recv would block on <socket.socket fd=1644, family=23, type=1, proto=6, laddr=('::1', 56767, 0, 0), raddr=('::1', 5672, 0, 0)>
+2025-10-21 10:30:48,774 - INFO - All Patients Displayed
+2025-10-21 10:36:03,140 - INFO - All Patients Displayed
