@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            width: 480px;
+            background: #ffffff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: #0078d7;
+            color: #fff;
+            padding: 12px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+        .conversation {
+            flex: 1;
+            padding: 12px;
+            overflow-y: auto;
+            border-bottom: 1px solid #eee;
+        }
+
+        .message {
+            margin: 8px 0;
+        }
+
+        .message strong {
+            color: #0078d7;
+        }
+
+        .controls {
+            display: flex;
+            padding: 10px;
+            background: #fafafa;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        button {
+            margin-left: 8px;
+            padding: 10px 14px;
+            border: none;
+            border-radius: 8px;
+            background-color: #0078d7;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 12px;
+            background: #f0f0f0;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer button {
+            background-color: #6c757d;
+        }
+
+        .footer button:hover {
+            background-color: #565e64;
+        }
+    </style>
+</head>
+<body>
+<div class="chat-container">
+    <div class="header">💬 Ask the Assistant</div>
+
+    <div id="conversation" class="conversation"></div>
+
+    <div class="controls">
+        <input id="question" type="text" placeholder="Type your question here..." onkeypress="if(event.key==='Enter') sendQuestion()">
+        <button onclick="sendQuestion()">Send</button>
+    </div>
+
+    <div class="footer">
+        <button onclick="loadHistory()">Load saved history</button>
+        <button onclick="clearChat()">Clear chat view</button>
+    </div>
+</div>
+
+<script>
+    const API_BASE = "http://127.0.0.1:8000";
+    const conversationEl = document.getElementById("conversation");
+
+    async function sendQuestion() {
+        const input = document.getElementById("question");
+        const query = input.value.trim();
+        if (!query) {
+            alert("Please type a question before sending!");
+            return;
+        }
+
+        appendMessage("You", query);
+        input.value = "";
+
+        try {
+            const res = await fetch(`${API_BASE}/generate`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query }),
+            });
+
+            const data = await res.json();
+
+            if (res.ok && data.response) {
+                appendMessage("Assistant", data.response);
+            } else {
+                appendMessage("Error", data.error || "Something went wrong.");
+            }
+        } catch (err) {
+            appendMessage("Error", "Cannot connect to backend. Is FastAPI running?");
+        }
+    }
+
+    async function loadHistory() {
+        try {
+            const res = await fetch(`${API_BASE}/history`);
+            const data = await res.json();
+            if (Array.isArray(data.history)) {
+                clearChat();
+                data.history.forEach(item => {
+                    appendMessage("You", item.question);
+                    appendMessage("Assistant", item.answer);
+                });
+            } else {
+                appendMessage("System", "No history found.");
+            }
+        } catch {
+            appendMessage("Error", "Failed to load history.");
+        }
+    }
+
+    function appendMessage(sender, text) {
+        const msg = document.createElement("p");
+        msg.classList.add("message");
+        msg.innerHTML = `<strong>${sender}:</strong> ${text}`;
+        conversationEl.appendChild(msg);
+        conversationEl.scrollTop = conversationEl.scrollHeight;
+    }
+
+    function clearChat() {
+        conversationEl.innerHTML = "";
+    }
+</script>
+</body>
+</html>
