@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pandas
+transformers
+torch
+requests
+beautifulsoup4
+lxml
+streamlit
+openai
+python-dotenv
+langchain
+langchain-openai
+reportlab
+matplotlib
+schedule
+smtplib
